@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subham Khadka | MERN Stack Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="logo" id="logoBtn">
+          <div class="logo-wrapper">
+            <div class="logo-icon-container">
+              <div class="logo-glow"></div>
+              <span class="logo-text">SK</span>
+            </div>
+          </div>
+          <div class="logo-info">
+            <span class="name">Subham Khadka</span>
+            <span class="tagline">MERN Developer</span>
+          </div>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section with Image -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            Available for opportunities
+          </div>
+          <h1>Hi, I'm <span class="gradient-text">Subham Khadka</span></h1>
+          <h2>MERN Stack Developer</h2>
+          <p>
+            BSc Computing student at NAMI, passionate about building scalable
+            web applications and exploring AI technology.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">
+              Get In Touch <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#projects" class="btn btn-outline">
+              View Work <i class="fas fa-folder-open"></i>
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/SubhamKhadka99" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/subham-khadka/" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="code-window">
+            <div class="window-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="window-title">portfolio.js</span>
+            </div>
+            <div class="code-content">
+              <span class="comment">// Developer Profile</span>
+              <span class="keyword">const</span>
+              <span class="variable">developer</span> = {
+              <span class="property">name</span>:
+              <span class="string">"Subham Khadka"</span>,
+              <span class="property">role</span>:
+              <span class="string">"MERN Developer"</span>,
+              <span class="property">skills</span>: [
+              <span class="string">"React"</span>,
+              <span class="string">"Node.js"</span>,
+              <span class="string">"MongoDB"</span>,
+              <span class="string">"Express"</span>
+              ],
+              <span class="property">passion</span>:
+              <span class="string">"Building apps"</span>,
+              <span class="property">learning</span>:
+              <span class="string">"AI & ML"</span>
+              };
+            </div>
+          </div>
+          <div class="floating-icon icon-1"><i class="fab fa-react"></i></div>
+          <div class="floating-icon icon-2"><i class="fab fa-node-js"></i></div>
+          <div class="floating-icon icon-3">
+            <i class="fas fa-database"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Who am I?</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm currently pursuing my <strong>BSc in Computing</strong> at
+              Naaya Aayam Multi-disciplinary Institute (NAMI), building a strong
+              foundation in software development.
+            </p>
+            <p>
+              My journey focuses on mastering the
+              <span class="highlight">MERN stack</span> to build scalable web
+              applications. I'm passionate about creating efficient,
+              user-friendly solutions.
+            </p>
+            <p>
+              I'm also exploring
+              <span class="highlight">Artificial Intelligence</span> and how it
+              can transform technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What I do</span>
+          <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3><i class="fas fa-palette"></i> Frontend</h3>
+            <div id="frontendSkills"></div>
+          </div>
+          <div class="skill-card">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div id="backendSkills"></div>
+          </div>
+          <div class="skill-card">
+            <h3><i class="fas fa-tools"></i> Tools</h3>
+            <div id="toolsSkills"></div>
+          </div>
+          <div class="skill-card">
+            <h3><i class="fas fa-book-reader"></i> Learning</h3>
+            <div id="learningSkills"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">My Work</span>
+          <h2>Featured Projects</h2>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <h4>Email</h4>
+              <p>subhamkhadka99@gmail.com</p>
+            </div>
+            <div class="info-card">
+              <i class="fab fa-github"></i>
+              <h4>GitHub</h4>
+              <a href="https://github.com/SubhamKhadka99" target="_blank"
+                >@SubhamKhadka99</a
+              >
+            </div>
+            <div class="info-card">
+              <i class="fab fa-linkedin"></i>
+              <h4>LinkedIn</h4>
+              <a
+                href="https://www.linkedin.com/in/subham-khadka/"
+                target="_blank"
+                >Subham Khadka</a
+              >
+            </div>
+          </div>
+          <form
+            id="contactForm"
+            class="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+          >
+            <div class="form-status" id="formStatus"></div>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="_subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Subham Khadka.</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
