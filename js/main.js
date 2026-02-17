@@ -201,7 +201,7 @@ function initScrollEffects() {
   });
 }
 
-// Typing Effect for Hero 
+// Typing Effect for Hero
 function typingEffect() {
   const text = "MERN Stack Developer";
   const element = document.querySelector(".typing-text");

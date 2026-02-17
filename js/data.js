@@ -30,7 +30,7 @@ const portfolioData = {
         "Building a comprehensive RESTful API for an e-commerce platform with authentication, product management, cart functionality, and order processing.",
       tech: ["Node.js", "Express.js", "MongoDB", "JWT"],
       status: "In Development",
-      link: "https://ecom-api-1hbm.onrender.com/",// Add GitHub link or null if not available
+      link: "https://ecom-api-1hbm.onrender.com/", // Add GitHub link or null if not available
     },
     {
       title: "Student Management System",
