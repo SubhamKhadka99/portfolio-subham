@@ -46,7 +46,7 @@ const portfolioData = {
       description:
         "An application to connect citizens and government to make a better Nepal",
       tech: ["React", "TypeScript", "Firebase","Cloudinary"],
-      status: "Prototype",
+      status: "In Development",
       link: "https://sahabaghi-demo.vercel.app/",
     },
     // Add more projects
