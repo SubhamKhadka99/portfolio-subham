@@ -40,6 +40,15 @@ const portfolioData = {
       status: "Completed",
       link: null,
     },
+
+    {
+      title: "Sahabaghi",
+      description:
+        "An application to connect citizens and government to make a better Nepal",
+      tech: ["React", "TypeScript", "Firebase","Cloudinary"],
+      status: "Prototype",
+      link: "https://sahabaghi-demo.vercel.app/",
+    },
     // Add more projects
   ],
 
