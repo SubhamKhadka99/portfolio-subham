@@ -49,6 +49,14 @@ const portfolioData = {
       status: "In Development",
       link: "https://sahabaghi-demo.vercel.app/",
     },
+    {
+      title: "Hire-Craft",
+      description:
+        "Hire-Craft is a full-stack job portal built with the MERN stack, enabling seamless job posting, application management, and user authentication. It features a fast React (Vite) frontend, a scalable Node.js/Express backend, and MongoDB for data storage, deployed on Vercel and Render.",
+      tech: ["React(Vite)", "TypeScript", "ExpressJs","NodeJs","MongoDB","jwt","nodemailer","sentry","Cloudinary","Vercel","render"],
+      status: "Completed",
+      link: "https://hire-craft-ebon.vercel.app/",
+    },
     // Add more projects
   ],
 
